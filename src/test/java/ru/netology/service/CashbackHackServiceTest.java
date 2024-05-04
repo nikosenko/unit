@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     @org.junit.Test
     public void test1000() {
         CashbackHackService service = new CashbackHackService();
-        org.junit.Assert.assertEquals(service.remain(1000), 1000);
+        org.junit.Assert.assertEquals(service.remain(1000), 0);
 
     }
     @org.junit.Test
